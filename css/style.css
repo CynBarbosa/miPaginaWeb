@@ -1,0 +1,92 @@
+/*
+.roboto-<uniquifier> {
+  font-family: "Roboto", serif;
+  font-weight: 100;
+  font-style: normal;
+}
+*/
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+/*header*/
+header {
+  padding: 10px;
+}
+.logo {
+  text-decoration: none;
+  color: black;
+  font-size: 35px;
+}
+.logo img {
+  width: 35px;
+  height: 35px;
+}
+.etiquetaAncla {
+  text-decoration: none;
+  color: white;
+}
+main {
+  background-color: rgb(227, 227, 235);
+}
+/*textos*/
+.letra {
+  font-family: "Roboto", serif;
+  font-style: bold;
+}
+.parrafo {
+  font-family: "Roboto", serif;
+  font-style: normal;
+}
+/*colores*/
+.blue {
+  background-color: blue;
+}
+/*bordes*/
+.border {
+  border: 1px black solid;
+}
+.borderRadius {
+  border-radius: 5px;
+}
+/* index */
+.novedadContainer {
+  width: 100%;
+  padding: 10px 5px;
+}
+.novedadContainer img {
+  width: 100%;
+}
+.preVentaContainer {
+  padding: 10px;
+}
+
+.titles {
+  font-size: 30px;
+}
+/* product */
+.cardContainer {
+  width: 120px;
+  height: 150px;
+  padding: 2px;
+}
+.cardContainer img {
+  width: 100px;
+  height: 100px;
+}
+.cardContainer h2 {
+  font-size: 16px;
+}
+.cardContainer a {
+  font-size: 12px;
+  padding: 2px;
+}
+/* noticia*/
+.ContainerText {
+}
+/*nosotros*/
+footer {
+  padding: 10px;
+}
